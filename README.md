@@ -1,6 +1,7 @@
 # Simple Network Speed Test
 
 ### Test network connection speeds with simple command line tools
+depends on "nc" and "pv"
 
 ```
 USAGE: snst.sh (-r|-s <host|ip>) [-p <port>]
